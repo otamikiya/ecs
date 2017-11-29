@@ -1,0 +1,723 @@
+/*wacu Common*/
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video,button ,a{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent;
+  font-weight: normal;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  box-sizing: border-box;
+    font-family:'Open Sans','メイリオ' , Meiryo , "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic", YuGothic, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+a{
+    outline:none;
+}
+img{
+  vertical-align: bottom;
+}
+/*****************************/
+/*width                      */
+/*****************************/
+    .width1280{
+        width: 1280px;
+        margin: auto;
+    }
+
+    .width1100{
+        width: 1100px;
+        margin: auto;
+    }
+
+    .width1024{
+        width: 1024px;
+        margin: auto;
+    }
+
+    .width960{
+        width: 960px;
+        margin: auto;
+    }
+
+    .width768{
+        width: 768px;
+        margin: auto;
+    }
+
+    .width760{
+        width: 640px;
+        margin: auto;
+    }
+
+    .width480{
+        width: 480px;
+        margin: auto;
+    }
+
+/*****************************/
+/* text-align                */
+/*****************************/
+    .textCenter{
+        text-align: center
+    }
+    .textLeft{
+        text-align: left;
+    }
+    .textRight{
+        text-align: right;
+    }
+
+
+/*****************************/
+/* flex setting              */
+/*****************************/
+    /*****************************/
+    /*flex;                    */
+    /*****************************/
+    .flex{
+        display:-webkit-box;/*--- Android旧ブラウザ用 ---*/
+        -js-display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    /*****************************/
+    /*flex direction;           */
+    /*****************************/
+    .fDir_row{
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .fDir_rowrev{
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction:row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .fDir_col{
+        -webkit-flex-direction: column;
+        -ms-flex-direction:column;
+        flex-direction: column;
+    }
+
+    .fDir_colrev{
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction:column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    /*****************************/
+    /*flex wrap                  */
+    /*****************************/
+    .fWrap_nowrap{
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap:none;
+        flex-wrap: nowrap;
+    }
+
+    .fWrap_wrap{
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .fWrap_wraprev{
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    /*****************************/
+    /*flex justify-content 横並び*/
+    /*****************************/
+    .fjc_start{
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack:start;
+        justify-content: flex-start;
+    }
+
+    .fjc_end{
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack:end;
+        justify-content: flex-end;
+    }
+
+    .fjc_center{
+        -webkit-justify-content: center;
+        -ms-flex-pack:center;
+        justify-content: center;
+    }
+
+    .fjc_between{
+        -ms-flex-pack:justify;/*IE10*/
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    .fjc_around{
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+
+
+    /*****************************/
+    /*flex align-items 縦位置     */
+    /*****************************/
+
+    .fai_start{
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    .fai_end{
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+
+    .fai_center{
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .fai_baseline{
+        -webkit-align-items: baseline;
+        align-items: baseline;
+    }
+
+    .fai_stretch{
+        -webkit-align-items: stretch;
+        align-items: stretch;
+    }
+
+
+
+
+    /*****************************/
+    /*flex align-content         */
+    /*****************************/
+
+    .fac_start{
+        -webkit-align-content: flex-start;
+        align-content: flex-start;
+    }
+
+    .fac_end{
+        -webkit-align-content: flex-end;
+        align-content: flex-end;
+    }
+
+    .fac_center{
+        -webkit-align-content: center;
+        align-content: center;
+    }
+
+    .fac_between{
+        -webkit-align-content: space-between;
+        align-content: space-between;
+    }
+
+    .fac_around{
+        -webkit-align-content: space-around;
+        align-content: space-around;
+    }
+
+    /*****************************/
+    /*flex order                 */
+    /*****************************/
+    .order-2{
+        -webkit-box-ordinal-group:-2;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:-2;/*--- IE10用 ---*/
+        -webkit-order: -2;
+        order: -2;
+    }
+    .order-1{
+        -webkit-box-ordinal-group:-1;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:-1;/*--- IE10用 ---*/
+        -webkit-order: -1;
+        order: -1;
+    }
+    .order0{
+        -webkit-box-ordinal-group:0;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:0;/*--- IE10用 ---*/
+        -webkit-order: 0;
+        order: 0;
+    }
+    .order1{
+        -webkit-box-ordinal-group:1;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:1;/*--- IE10用 ---*/
+        -webkit-order: 1;
+        order: 1;
+    }
+    .order2{
+        -webkit-box-ordinal-group:2;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:2;/*--- IE10用 ---*/
+        -webkit-order: 2;
+        order: 2;
+    }
+    .order3{
+        -webkit-box-ordinal-group:3;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:3;/*--- IE10用 ---*/
+        -webkit-order: 3;
+        order: 3;
+    }
+    .order4{
+        -webkit-box-ordinal-group:4;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:4;/*--- IE10用 ---*/
+        -webkit-order: 4;
+        order: 4;
+    }
+    .order5{
+        -webkit-box-ordinal-group:5;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:5;/*--- IE10用 ---*/
+        -webkit-order: 5;
+        order: 5;
+    }
+    .order6{
+        -webkit-box-ordinal-group:6;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:6;/*--- IE10用 ---*/
+        -webkit-order: 6;
+        order: 6;
+    }
+    .order7{
+        -webkit-box-ordinal-group:7;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:7;/*--- IE10用 ---*/
+        -webkit-order: 7;
+        order: 7;
+    }
+    .order8{
+        -webkit-box-ordinal-group:8;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:8;/*--- IE10用 ---*/
+        -webkit-order: 8;
+        order: 8;
+    }
+    .order9{
+        -webkit-box-ordinal-group:9;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:9;/*--- IE10用 ---*/
+        -webkit-order: 9;
+        order: 9;
+    }
+    .order10{
+        -webkit-box-ordinal-group:10;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:10;/*--- IE10用 ---*/
+        -webkit-order: 10;
+        order: 10;
+    }
+    .order11{
+        -webkit-box-ordinal-group:11;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:11;/*--- IE10用 ---*/
+        -webkit-order: 11;
+        order: 11;
+    }
+    .order12{
+        -webkit-box-ordinal-group:11;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:12;/*--- IE10用 ---*/
+        -webkit-order: 12;
+        order: 12;
+    }
+
+    /*****************************/
+    /*flex grow                 */
+    /*****************************/
+    /*.grow1{
+        -webkit-flex-grow:1;
+        flex-grow:1;
+    }
+    .grow2{
+        -webkit-flex-grow:2;
+        flex-grow:2;
+    }
+    .grow3{
+        -webkit-flex-grow:3;
+        flex-grow:3;
+    }
+    .grow4{
+        -webkit-flex-grow:4;
+        flex-grow:4;
+    }*/
+
+    /*****************************/
+    /*カラム                     */
+    /*****************************/
+    /*****************************/
+    /*colomun x of 2             */
+    /*****************************/
+
+    .col1of2{
+        width: calc(100% / 2 * 1) ;
+    }
+    .col2of2{
+        width: calc(100% / 2 * 2) ;
+    }
+    /*****************************/
+    /*colomun x of 3             */
+    /*****************************/
+
+    .col1of3{
+        width: calc(100% / 3 * 1) ;
+    }
+    .col2of3{
+        width: calc(100% / 3 * 2) ;
+    }
+    .col3of3{
+        width: calc(100% / 3 * 3) ;
+    }
+    /*****************************/
+    /*colomun x of 4             */
+    /*****************************/
+    .col1of4{
+        width: calc(100% / 4 * 1) ;
+    }
+    .col2of4{
+        width: calc(100% / 4 * 2) ;
+    }
+    .col3of4{
+        width: calc(100% / 4 * 3) ;
+    }
+    .col4of4{
+        width: calc(100% / 4 * 4) ;
+    }
+    /*****************************/
+    /*colomun x of 5             */
+    /*****************************/
+    .col1of5{
+        width: calc(100% / 5 * 1) ;
+    }
+    .col2of5{
+        width: calc(100% / 5 * 2) ;
+    }
+    .col3of5{
+        width: calc(100% / 5 * 3) ;
+    }
+    .col4of5{
+        width: calc(100% / 5 * 4) ;
+    }
+    .col5of5{
+        width: calc(100% / 5 * 5) ;
+    }
+    /*****************************/
+    /*colomun x of 6             */
+    /*****************************/
+    .col1of6{
+        width: calc(100% / 6);
+    }
+    .col2of6{
+        width: calc(100% / 6 * 2) ;
+    }
+    .col3of6{
+        width: calc(100% / 6 * 3) ;
+    }
+    .col4of6{
+        width: calc(100% / 6 * 4) ;
+    }
+    .col5of6{
+        width: calc(100% / 6 * 5) ;
+    }
+    .col6of6{
+        width: calc(100% / 6 * 6) ;
+    }
+    /*****************************/
+    /*colomun x of 7             */
+    /*****************************/
+    .col1of7{
+        width: calc(100% / 7);
+    }
+    .col2of7{
+        width: calc(100% / 7 * 2) ;
+    }
+    .col3of7{
+        width: calc(100% / 7 * 3) ;
+    }
+    .col4of7{
+        width: calc(100% / 7 * 4) ;
+    }
+    .col5of7{
+        width: calc(100% / 7 * 5) ;
+    }
+    .col6of7{
+        width: calc(100% / 7 * 6) ;
+    }
+    .col7of7{
+        width: calc(100% / 7 * 7) ;
+    }
+    /*****************************/
+    /*colomun x of 8             */
+    /*****************************/
+    .col1of8{
+        width: calc(100% / 8 * 1) ;
+    }
+    .col2of8{
+        width: calc(100% / 8 * 2) ;
+    }
+    .col3of8{
+        width: calc(100% / 8 * 3) ;
+    }
+    .col4of8{
+        width: calc(100% / 8 * 4) ;
+    }
+    .col5of8{
+        width: calc(100% / 8 * 5) ;
+    }
+    .col6of8{
+        width: calc(100% / 8 * 6) ;
+    }
+    .col7of8{
+        width: calc(100% / 8 * 7) ;
+    }
+    .col8of8{
+        width: calc(100% / 8 * 8) ;
+    }
+    /*****************************/
+    /*colomun x of 9             */
+    /*****************************/
+    .col1of9{
+        width: calc(100% / 9 * 1) ;
+    }
+    .col2of9{
+        width: calc(100% / 9 * 2) ;
+    }
+    .col3of9{
+        width: calc(100% / 9 * 3) ;
+    }
+    .col4of9{
+        width: calc(100% / 9 * 4) ;
+    }
+    .col5of9{
+        width: calc(100% / 9 * 5) ;
+    }
+    .col6of9{
+        width: calc(100% / 9 * 6) ;
+    }
+    .col7of9{
+        width: calc(100% / 9 * 7) ;
+    }
+    .col8of9{
+        width: calc(100% / 9 * 8) ;
+    }
+    .col9of9{
+        width: calc(100% / 9 * 9) ;
+    }
+    /*****************************/
+    /*colomun x of 10            */
+    /*****************************/
+    .col1of10{
+        width: calc(100% / 10 * 1) ;
+    }
+    .col2of10{
+        width: calc(100% / 10 * 2) ;
+    }
+    .col3of10{
+        width: calc(100% / 10 * 3) ;
+    }
+    .col4of10{
+        width: calc(100% / 10 * 4) ;
+    }
+    .col5of10{
+        width: calc(100% / 10 * 5) ;
+    }
+    .col6of10{
+        width: calc(100% / 10 * 6) ;
+    }
+    .col7of10{
+        width: calc(100% / 10 * 7) ;
+    }
+    .col8of10{
+        width: calc(100% / 10 * 8) ;
+    }
+    .col9of10{
+        width: calc(100% / 10 * 9) ;
+    }
+    .col10of10{
+        width: calc(100% / 10 * 10) ;
+    }
+    /*****************************/
+    /*colomun x of 11            */
+    /*****************************/
+    .col1of11{
+        width: calc(100% / 11 * 1) ;
+    }
+    .col2of11{
+        width: calc(100% / 11 * 2) ;
+    }
+    .col3of11{
+        width: calc(100% / 11 * 3) ;
+    }
+    .col4of11{
+        width: calc(100% / 11 * 4) ;
+    }
+    .col5of11{
+        width: calc(100% / 11 * 5) ;
+    }
+    .col6of11{
+        width: calc(100% / 11 * 6) ;
+    }
+    .col7of11{
+        width: calc(100% / 11 * 7) ;
+    }
+    .col8of11{
+        width: calc(100% / 11 * 8) ;
+    }
+    .col9of11{
+        width: calc(100% / 11 * 9) ;
+    }
+    .col10of11{
+        width: calc(100% / 11 * 10) ;
+    }
+    .col11of11{
+        width: calc(100% / 11 * 11) ;
+    }
+    /*****************************/
+    /*colomun x of 12            */
+    /*****************************/
+    .col1of12{
+        width: calc(100% / 12 * 1) ;
+    }
+    .col2of12{
+        width: calc(100% / 12 * 2) ;
+    }
+    .col3of12{
+        width: calc(100% / 12 * 3) ;
+    }
+    .col4of12{
+        width: calc(100% / 12 * 4) ;
+    }
+    .col5of12{
+        width: calc(100% / 12 * 5) ;
+    }
+    .col6of12{
+        width: calc(100% / 12 * 6) ;
+    }
+    .col7of12{
+        width: calc(100% / 12 * 7) ;
+    }
+    .col8of12{
+        width: calc(100% / 12 * 8) ;
+    }
+    .col9of12{
+        width: calc(100% / 12 * 9) ;
+    }
+    .col10of12{
+        width: calc(100% / 12 * 10) ;
+    }
+    .col11of12{
+        width: calc(100% / 12 * 11) ;
+    }
+    .col12of12{
+        width: calc(100% / 12 * 12) ;
+    }
+
+
+/*****************************/
+/* display                   */
+/*****************************/
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    .inlineBlock{
+        display: inline-block;
+    }
+    .inline{
+        display: inline;
+    }
+    .table{
+        display: table;
+    }
+    .tableRow{
+        display: table-row;
+    }
+    .tableCell{
+        display: table-cell;
+    }
+
+/*****************************/
+/*image responsive           */
+/*****************************/
+    .imgRes, .imgRes img{
+        max-width: 100%;
+    }
+
+/*****************************/
+/*virtical align             */
+/*****************************/
+    .va_top{
+        vertical-align: top;
+    }
+    .va_middle{
+        vertical-align: middle;
+    }
+    .va_bottom{
+        vertical-align: bottom;
+    }
+
+
+
+/*****************************/
+/*h tag                      */
+/*****************************/
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    h4{
+        font-size: 1.6rem;
+    }
+    h5{
+        font-size: 1.4rem;
+    }
+    h6{
+        font-size: 1.2rem;
+    }
+
+/*****************************/
+/*font size                  */
+/*****************************/
+    .fontXs{
+        font-size: 1.2rem;
+    }
+    .fontSm{
+        font-size: 1.4rem;
+    }
+    .fontMd{
+        font-size: 1.6rem;
+    }
+    .fontLg{
+        font-size: 2rem;
+    }
+    .fontXl{
+        font-size: 2.4rem;
+    }
+
+
+
+/*****************************/
+/*font weight                */
+/*****************************/
+    .normal{
+        font-weight: normal;
+    }
+    .bold{
+        font-weight: bold;
+    }
+/*****************************/
+/*font awesome               */
+/*****************************/
+    .fontAS{
+        font-family: FontAwesome;
+    }
+
+
+/*wacu Common*/

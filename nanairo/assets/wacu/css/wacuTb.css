@@ -1,0 +1,720 @@
+/*wacu Tb*/
+html{
+    font-size:2.1vw;
+}
+/*****************************/
+/*width                      */
+/*****************************/
+    .width1280Tb{
+        width: 1280px;
+        margin: auto;
+    }
+
+    .width1100Tb{
+        width: 1100px;
+        margin: auto;
+    }
+
+    .width1024Tb{
+        width: 1024px;
+        margin: auto;
+    }
+
+    .width960Tb{
+        width: 960px;
+        margin: auto;
+    }
+
+    .width768Tb{
+        width: 768px;
+        margin: auto;
+    }
+
+    .width760Tb{
+        width: 640px;
+        margin: auto;
+    }
+
+    .width480Tb{
+        width: 480px;
+        margin: auto;
+    }
+
+/*****************************/
+/* text-align                */
+/*****************************/
+    .textCenterTb{
+        text-align: center
+    }
+    .textLeftTb{
+        text-align: left;
+    }
+    .textRightTb{
+        text-align: right;
+    }
+
+
+/*****************************/
+/* flex setting              */
+/*****************************/
+    /*****************************/
+    /*flex;                    */
+    /*****************************/
+    .flexTb{
+        display:-webkit-box;/*--- Android旧ブラウザ用 ---*/
+        -js-display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    /*****************************/
+    /*flex direction;           */
+    /*****************************/
+    .fDir_rowTb{
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .fDir_rowrevTb{
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction:row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .fDir_colTb{
+        -webkit-flex-direction: column;
+        -ms-flex-direction:column;
+        flex-direction: column;
+    }
+
+    .fDir_colrevTb{
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction:column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    /*****************************/
+    /*flex wrap                  */
+    /*****************************/
+    .fWrap_nowrapTb{
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap:none;
+        flex-wrap: nowrap;
+    }
+
+    .fWrap_wrapTb{
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .fWrap_wraprevTb{
+        -webkit-flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    /*****************************/
+    /*flex justify-content 横並び*/
+    /*****************************/
+    .fjc_startTb{
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack:start;
+        justify-content: flex-start;
+    }
+
+    .fjc_endTb{
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack:end;
+        justify-content: flex-end;
+    }
+
+    .fjc_centerTb{
+        -webkit-justify-content: center;
+        -ms-flex-pack:center;
+        justify-content: center;
+    }
+
+    .fjc_betweenTb{
+        -ms-flex-pack:justify;/*IE10*/
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    .fjc_aroundTb{
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+
+
+    /*****************************/
+    /*flex align-items 縦位置     */
+    /*****************************/
+
+    .fai_startTb{
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+
+    .fai_endTb{
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+
+    .fai_centerTb{
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .fai_baselineTb{
+        -webkit-align-items: baseline;
+        align-items: baseline;
+    }
+
+    .fai_stretchTb{
+        -webkit-align-items: stretch;
+        align-items: stretch;
+    }
+
+
+
+
+    /*****************************/
+    /*flex align-content         */
+    /*****************************/
+
+    .fac_startTb{
+        -webkit-align-content: flex-start;
+        align-content: flex-start;
+    }
+
+    .fac_endTb{
+        -webkit-align-content: flex-end;
+        align-content: flex-end;
+    }
+
+    .fac_centerTb{
+        -webkit-align-content: center;
+        align-content: center;
+    }
+
+    .fac_betweenTb{
+        -webkit-align-content: space-between;
+        align-content: space-between;
+    }
+
+    .fac_aroundTb{
+        -webkit-align-content: space-around;
+        align-content: space-around;
+    }
+
+    /*****************************/
+    /*flex order                 */
+    /*****************************/
+    .order-2Tb{
+        -webkit-box-ordinal-group:-2;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:-2;/*--- IE10用 ---*/
+        -webkit-order: -2;
+        order: -2;
+    }
+    .order-1Tb{
+        -webkit-box-ordinal-group:-1;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:-1;/*--- IE10用 ---*/
+        -webkit-order: -1;
+        order: -1;
+    }
+    .order0Tb{
+        -webkit-box-ordinal-group:0;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:0;/*--- IE10用 ---*/
+        -webkit-order: 0;
+        order: 0;
+    }
+    .order1Tb{
+        -webkit-box-ordinal-group:1;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:1;/*--- IE10用 ---*/
+        -webkit-order: 1;
+        order: 1;
+    }
+    .order2Tb{
+        -webkit-box-ordinal-group:2;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:2;/*--- IE10用 ---*/
+        -webkit-order: 2;
+        order: 2;
+    }
+    .order3Tb{
+        -webkit-box-ordinal-group:3;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:3;/*--- IE10用 ---*/
+        -webkit-order: 3;
+        order: 3;
+    }
+    .order4Tb{
+        -webkit-box-ordinal-group:4;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:4;/*--- IE10用 ---*/
+        -webkit-order: 4;
+        order: 4;
+    }
+    .order5Tb{
+        -webkit-box-ordinal-group:5;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:5;/*--- IE10用 ---*/
+        -webkit-order: 5;
+        order: 5;
+    }
+    .order6Tb{
+        -webkit-box-ordinal-group:6;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:6;/*--- IE10用 ---*/
+        -webkit-order: 6;
+        order: 6;
+    }
+    .order7Tb{
+        -webkit-box-ordinal-group:7;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:7;/*--- IE10用 ---*/
+        -webkit-order: 7;
+        order: 7;
+    }
+    .order8Tb{
+        -webkit-box-ordinal-group:8;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:8;/*--- IE10用 ---*/
+        -webkit-order: 8;
+        order: 8;
+    }
+    .order9Tb{
+        -webkit-box-ordinal-group:9;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:9;/*--- IE10用 ---*/
+        -webkit-order: 9;
+        order: 9;
+    }
+    .order10Tb{
+        -webkit-box-ordinal-group:10;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:10;/*--- IE10用 ---*/
+        -webkit-order: 10;
+        order: 10;
+    }
+    .order11Tb{
+        -webkit-box-ordinal-group:11;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:11;/*--- IE10用 ---*/
+        -webkit-order: 11;
+        order: 11;
+    }
+    .order12Tb{
+        -webkit-box-ordinal-group:11;/*--- Android旧ブラウザ用 ---*/
+        -ms-flex-order:12;/*--- IE10用 ---*/
+        -webkit-order: 12;
+        order: 12;
+    }
+
+    /*****************************/
+    /*flex grow                 */
+    /*****************************/
+    /*.grow1Tb{
+        -webkit-flex-grow:1;
+        flex-grow:1;
+    }
+    .grow2Tb{
+        -webkit-flex-grow:2;
+        flex-grow:2;
+    }
+    .grow3Tb{
+        -webkit-flex-grow:3;
+        flex-grow:3;
+    }
+    .grow4Tb{
+        -webkit-flex-grow:4;
+        flex-grow:4;
+    }*/
+
+    /*****************************/
+    /*カラム                     */
+    /*****************************/
+    /*****************************/
+    /*colomun x of 2             */
+    /*****************************/
+
+    .col1of2Tb{
+        width: calc(100% / 2 * 1) ;
+    }
+    .col2of2Tb{
+        width: calc(100% / 2 * 2) ;
+    }
+    /*****************************/
+    /*colomun x of 3             */
+    /*****************************/
+
+    .col1of3Tb{
+        width: calc(100% / 3 * 1) ;
+    }
+    .col2of3Tb{
+        width: calc(100% / 3 * 2) ;
+    }
+    .col3of3Tb{
+        width: calc(100% / 3 * 3) ;
+    }
+    /*****************************/
+    /*colomun x of 4             */
+    /*****************************/
+    .col1of4Tb{
+        width: calc(100% / 4 * 1) ;
+    }
+    .col2of4Tb{
+        width: calc(100% / 4 * 2) ;
+    }
+    .col3of4Tb{
+        width: calc(100% / 4 * 3) ;
+    }
+    .col4of4Tb{
+        width: calc(100% / 4 * 4) ;
+    }
+    /*****************************/
+    /*colomun x of 5             */
+    /*****************************/
+    .col1of5Tb{
+        width: calc(100% / 5 * 1) ;
+    }
+    .col2of5Tb{
+        width: calc(100% / 5 * 2) ;
+    }
+    .col3of5Tb{
+        width: calc(100% / 5 * 3) ;
+    }
+    .col4of5Tb{
+        width: calc(100% / 5 * 4) ;
+    }
+    .col5of5Tb{
+        width: calc(100% / 5 * 5) ;
+    }
+    /*****************************/
+    /*colomun x of 6             */
+    /*****************************/
+    .col1of6Tb{
+        width: calc(100% / 6);
+    }
+    .col2of6Tb{
+        width: calc(100% / 6 * 2) ;
+    }
+    .col3of6Tb{
+        width: calc(100% / 6 * 3) ;
+    }
+    .col4of6Tb{
+        width: calc(100% / 6 * 4) ;
+    }
+    .col5of6Tb{
+        width: calc(100% / 6 * 5) ;
+    }
+    .col6of6Tb{
+        width: calc(100% / 6 * 6) ;
+    }
+    /*****************************/
+    /*colomun x of 7             */
+    /*****************************/
+    .col1of7Tb{
+        width: calc(100% / 7);
+    }
+    .col2of7Tb{
+        width: calc(100% / 7 * 2) ;
+    }
+    .col3of7Tb{
+        width: calc(100% / 7 * 3) ;
+    }
+    .col4of7Tb{
+        width: calc(100% / 7 * 4) ;
+    }
+    .col5of7Tb{
+        width: calc(100% / 7 * 5) ;
+    }
+    .col6of7Tb{
+        width: calc(100% / 7 * 6) ;
+    }
+    .col7of7Tb{
+        width: calc(100% / 7 * 7) ;
+    }
+    /*****************************/
+    /*colomun x of 8             */
+    /*****************************/
+    .col1of8Tb{
+        width: calc(100% / 8 * 1) ;
+    }
+    .col2of8Tb{
+        width: calc(100% / 8 * 2) ;
+    }
+    .col3of8Tb{
+        width: calc(100% / 8 * 3) ;
+    }
+    .col4of8Tb{
+        width: calc(100% / 8 * 4) ;
+    }
+    .col5of8Tb{
+        width: calc(100% / 8 * 5) ;
+    }
+    .col6of8Tb{
+        width: calc(100% / 8 * 6) ;
+    }
+    .col7of8Tb{
+        width: calc(100% / 8 * 7) ;
+    }
+    .col8of8Tb{
+        width: calc(100% / 8 * 8) ;
+    }
+    /*****************************/
+    /*colomun x of 9             */
+    /*****************************/
+    .col1of9Tb{
+        width: calc(100% / 9 * 1) ;
+    }
+    .col2of9Tb{
+        width: calc(100% / 9 * 2) ;
+    }
+    .col3of9Tb{
+        width: calc(100% / 9 * 3) ;
+    }
+    .col4of9Tb{
+        width: calc(100% / 9 * 4) ;
+    }
+    .col5of9Tb{
+        width: calc(100% / 9 * 5) ;
+    }
+    .col6of9Tb{
+        width: calc(100% / 9 * 6) ;
+    }
+    .col7of9Tb{
+        width: calc(100% / 9 * 7) ;
+    }
+    .col8of9Tb{
+        width: calc(100% / 9 * 8) ;
+    }
+    .col9of9Tb{
+        width: calc(100% / 9 * 9) ;
+    }
+    /*****************************/
+    /*colomun x of 10            */
+    /*****************************/
+    .col1of10Tb{
+        width: calc(100% / 10 * 1) ;
+    }
+    .col2of10Tb{
+        width: calc(100% / 10 * 2) ;
+    }
+    .col3of10Tb{
+        width: calc(100% / 10 * 3) ;
+    }
+    .col4of10Tb{
+        width: calc(100% / 10 * 4) ;
+    }
+    .col5of10Tb{
+        width: calc(100% / 10 * 5) ;
+    }
+    .col6of10Tb{
+        width: calc(100% / 10 * 6) ;
+    }
+    .col7of10Tb{
+        width: calc(100% / 10 * 7) ;
+    }
+    .col8of10Tb{
+        width: calc(100% / 10 * 8) ;
+    }
+    .col9of10Tb{
+        width: calc(100% / 10 * 9) ;
+    }
+    .col10of10Tb{
+        width: calc(100% / 10 * 10) ;
+    }
+    /*****************************/
+    /*colomun x of 11            */
+    /*****************************/
+    .col1of11Tb{
+        width: calc(100% / 11 * 1) ;
+    }
+    .col2of11Tb{
+        width: calc(100% / 11 * 2) ;
+    }
+    .col3of11Tb{
+        width: calc(100% / 11 * 3) ;
+    }
+    .col4of11Tb{
+        width: calc(100% / 11 * 4) ;
+    }
+    .col5of11Tb{
+        width: calc(100% / 11 * 5) ;
+    }
+    .col6of11Tb{
+        width: calc(100% / 11 * 6) ;
+    }
+    .col7of11Tb{
+        width: calc(100% / 11 * 7) ;
+    }
+    .col8of11Tb{
+        width: calc(100% / 11 * 8) ;
+    }
+    .col9of11Tb{
+        width: calc(100% / 11 * 9) ;
+    }
+    .col10of11Tb{
+        width: calc(100% / 11 * 10) ;
+    }
+    .col11of11Tb{
+        width: calc(100% / 11 * 11) ;
+    }
+    /*****************************/
+    /*colomun x of 12            */
+    /*****************************/
+    .col1of12Tb{
+        width: calc(100% / 12 * 1) ;
+    }
+    .col2of12Tb{
+        width: calc(100% / 12 * 2) ;
+    }
+    .col3of12Tb{
+        width: calc(100% / 12 * 3) ;
+    }
+    .col4of12Tb{
+        width: calc(100% / 12 * 4) ;
+    }
+    .col5of12Tb{
+        width: calc(100% / 12 * 5) ;
+    }
+    .col6of12Tb{
+        width: calc(100% / 12 * 6) ;
+    }
+    .col7of12Tb{
+        width: calc(100% / 12 * 7) ;
+    }
+    .col8of12Tb{
+        width: calc(100% / 12 * 8) ;
+    }
+    .col9of12Tb{
+        width: calc(100% / 12 * 9) ;
+    }
+    .col10of12Tb{
+        width: calc(100% / 12 * 10) ;
+    }
+    .col11of12Tb{
+        width: calc(100% / 12 * 11) ;
+    }
+    .col12of12Tb{
+        width: calc(100% / 12 * 12) ;
+    }
+
+
+/*****************************/
+/* display                   */
+/*****************************/
+    .noneTb{
+        display: none;
+    }
+    .blockTb{
+        display: block;
+    }
+    .inlineBlockTb{
+        display: inline-block;
+    }
+    .inlineTb{
+        display: inline;
+    }
+    .tableTb{
+        display: table;
+    }
+    .tableRowTb{
+        display: table-row;
+    }
+    .tableCellTb{
+        display: table-cell;
+    }
+
+/*****************************/
+/*image responsive           */
+/*****************************/
+    .imgRes, .imgRes imgTb{
+        max-width: 100%;
+    }
+
+/*****************************/
+/*virtical align             */
+/*****************************/
+    .va_topTb{
+        vertical-align: top;
+    }
+    .va_middleTb{
+        vertical-align: middle;
+    }
+    .va_bottomTb{
+        vertical-align: bottom;
+    }
+
+
+
+/*****************************/
+/*h tag                      */
+/*****************************/
+    h1Tb{
+        font-size: 2.4rem;
+    }
+    h2Tb{
+        font-size: 2.2rem;
+    }
+    h3Tb{
+        font-size: 1.8rem;
+    }
+    h4Tb{
+        font-size: 1.6rem;
+    }
+    h5Tb{
+        font-size: 1.4rem;
+    }
+    h6Tb{
+        font-size: 1.2rem;
+    }
+
+/*****************************/
+/*font size                  */
+/*****************************/
+    .fontXsTb{
+        font-size: 1.2rem;
+    }
+    .fontSmTb{
+        font-size: 1.4rem;
+    }
+    .fontMdTb{
+        font-size: 1.6rem;
+    }
+    .fontLgTb{
+        font-size: 2rem;
+    }
+    .fontXlTb{
+        font-size: 2.4rem;
+    }
+
+
+
+/*****************************/
+/*font weight                */
+/*****************************/
+    .normalTb{
+        font-weight: normal;
+    }
+    .boldTb{
+        font-weight: bold;
+    }
+/*****************************/
+/*font awesome               */
+/*****************************/
+    .fontASTb{
+        font-family: FontAwesome;
+    }
+
+/*****************************/
+/*hide                       */
+/*****************************/
+    .onlyPc{
+        display: none;
+    }
+    .onlySp{
+        display: none;
+    }
+    onlyTb{
+        display: inherit;
+    }
+    .hideTb{
+        display: none;
+    }
+/*wacu Common*/

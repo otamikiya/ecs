@@ -1,0 +1,145 @@
+/* reset*/
+  /*
+  html5doctor.com Reset Stylesheet
+  v1.6.1
+  Last Updated: 2010-09-17
+  Author: Richard Clark - http://richclarkdesign.com
+  Twitter: @rich_clark
+  */
+
+  html{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:62.5%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: normal;
+    font-family:'Open Sans','メイリオ' , Meiryo , "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic", YuGothic, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+
+
+   body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video,button {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:1.6rem;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: normal;
+    font-family:'Open Sans','メイリオ' , Meiryo , "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic", YuGothic, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+     -webkit-tap-highlight-color: transparent;
+     tap-highlight-color: transparent;
+     box-sizing: border-box;
+}
+img{
+  vertical-align: bottom;
+}
+  body {
+    line-height:1.25;
+    letter-spacing:0.8pt;
+}
+
+  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+      display:block;
+  }
+
+  nav ul {
+      list-style:none;
+  }
+
+  blockquote, q {
+      quotes:none;
+  }
+
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content:'';
+      content:none;
+  }
+
+  a {
+      margin:0;
+      padding:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+      text-decoration:none;
+  }
+
+  /* change colours to suit your needs */
+  ins {
+      background-color:#ff9;
+      color:#000;
+      text-decoration:none;
+  }
+
+  /* change colours to suit your needs */
+  mark {
+      background-color:#ff9;
+      color:#000;
+      font-style:italic;
+      font-weight:bold;
+  }
+
+  del {
+      text-decoration: line-through;
+  }
+
+  abbr[title], dfn[title] {
+      border-bottom:1px dotted;
+      cursor:help;
+  }
+
+  table {
+      border-collapse:collapse;
+      border-spacing:0;
+  }
+
+  /* change border colour to suit your needs */
+  hr {
+      display:block;
+      height:1px;
+      border:0;
+      border-top:1px solid #cccccc;
+      margin:1em 0;
+      padding:0;
+  }
+
+  input, select {
+      vertical-align:middle;
+  }
+
+  /**********/
+  /*reset vc*/
+   /**********/
+   .vc_row.vc_row.vc_row.vc_row{
+    -js-display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  .vc_column-inner.vc_column-inner.vc_column-inner.vc_column-inner{
+    padding:0;
+  }
+  .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0px;
+    }
+
+  /*a button*/
+    a,button{
+      -webkit-transition: color .3s ease ;
+      -moz-transition: color .3s ease ;
+      transition: color .3s ease ;
+    }
+    a,a:focus,a:visited{
+      color:#333;
+    }
+    a:hover{
+      color:#999;
+    }
+/*styleCm.css*/
